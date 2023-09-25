@@ -1,0 +1,360 @@
+<html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333; /* Cor de fundo escura para o tema escuro */
+            color: #fff; /* Cor do texto no tema escuro */
+        }
+
+        header {
+            background-color: #111; /* Cor de fundo do cabeçalho no tema escuro */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            background-color: #444; /* Cor de fundo dos itens da lista no tema escuro */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .file-number {
+            flex: 1;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .file-name {
+            flex: 4;
+        }
+
+        .edit-file-btn {
+            background-color: #3498db; /* Cor do botão "Editar" no tema escuro */
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            li {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .file-number {
+                margin-right: 0;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biblioteca de Arquivos</h1>
+    </header>
+    <div class="container">
+        <ul id="file-list">
+            <!-- Itens existentes da lista -->
+            <li>
+                <span class="file-number">001</span>
+                <span class="file-name">Computaçao Forense</span>
+                
+            </li>
+            <li>
+                <span class="file-number">002</span>
+                <span class="file-name">Linguagens de Programaçao</span>
+                
+            </li>
+            <li>
+                <span class="file-number">003</span>
+                <span class="file-name">Banco de Dados</span>
+                
+            </li>
+        <li>
+                    <span class="file-number">004</span>
+                    <span class="file-name">Analise de Sistemas</span>
+                    
+                </li><li>
+                    <span class="file-number">005</span>
+                    <span class="file-name">Engenharia de Software</span>
+                    
+                </li><li>
+                    <span class="file-number">004</span>
+                    <span class="file-name">Redes e Segurança Digital</span>
+                    
+                </li><li>
+                    <span class="file-number">005</span>
+                    <span class="file-name">Conteudo para Hardware</span>
+                    
+                </li><li>
+                    <span class="file-number">006</span>
+                    <span class="file-name">Cursos Variados para Concurso Publico (BONUS)</span>
+                    
+                </li><li>
+                    <span class="file-number">007</span>
+                    <span class="file-name">Linux </span>
+                    
+                </li><li>
+                    <span class="file-number">008</span>
+                    <span class="file-name">Curso Wordpress</span>
+                    
+                </li><li>
+                    <span class="file-number">009</span>
+                    <span class="file-name">Ingles</span>
+                    
+                </li><li>
+                    <span class="file-number">010</span>
+                    <span class="file-name">Ediçao de Imagens</span>
+                    
+                </li><li>
+                    <span class="file-number">011</span>
+                    <span class="file-name">Curso Office</span>
+
+                </li><li>
+                    <span class="file-number">012</span>
+                    <span class="file-name">Curso Normas da ABNT</span>
+
+                </li><li>
+                    <span class="file-number">013</span>
+                    <span class="file-name">Programaçao Android</span>
+
+                </li><li>
+                    <span class="file-number">014</span>
+                    <span class="file-name">Engenharia Social</span>
+
+                </li><li>
+                    <span class="file-number">015</span>
+                    <span class="file-name">Game Maker</span>
+
+                </li><li>
+                    <span class="file-number">016</span>
+                    <span class="file-name">Curso de Eletronica</span>
+
+                </li><li>
+                    <span class="file-number">017</span>
+                    <span class="file-name">Oratoria</span>
+
+                </li><li>
+                    <span class="file-number">018</span>
+                    <span class="file-name">Adobe After Effects 2023 23.6.0.62</span>
+
+                </li><li>
+                    <span class="file-number">019</span>
+                    <span class="file-name">Adobe Illustrator 2023 27.8.1.268</span>
+
+                </li><li>
+                    <span class="file-number">020</span>
+                    <span class="file-name">Adobe Media Encoder 2023 23.6.0.62</span>
+
+                </li><li>
+                    <span class="file-number">021</span>
+                    <span class="file-name">Adobe Premiere Pro CC 2019 v13.1.0.193 (x64) Multilanguage</span>
+
+                </li><li>
+                    <span class="file-number">022</span>
+                    <span class="file-name">Adobe XD CC 2020 (Criaçao de Apps)</span>
+
+                </li><li>
+                    <span class="file-number">023</span>
+                    <span class="file-name">Aida64 Diagnosticos (Pente Fino)</span>
+
+                </li><li>
+                    <span class="file-number">024</span>
+                    <span class="file-name">ApowerEDit (Editor VIdeo)</span>
+
+                </li><li>
+                    <span class="file-number">025</span>
+                    <span class="file-name">AutoCad 2022 (Desenho e Arquitetura 3D)</span>
+
+                </li><li>
+                    <span class="file-number">026</span>
+                    <span class="file-name">Capturar area de Trabalho (Power Rec)</span>
+
+                </li><li>
+                    <span class="file-number">027</span>
+                    <span class="file-name">CCleaner Professional (Otimizador)</span>
+
+                </li><li>
+                    <span class="file-number">028</span>
+                    <span class="file-name">Complemento Jogos (Directx)</span>
+
+                </li><li>
+                    <span class="file-number">029</span>
+                    <span class="file-name">Corel Drawn  (Editor Vitoriais)</span>
+
+                </li><li>
+                    <span class="file-number">030</span>
+                    <span class="file-name">Criador de Jogos (Mugem)</span>
+
+                </li><li>
+                    <span class="file-number">031</span>
+                    <span class="file-name">Criador de Jogos (Studio)</span>
+
+                </li><li>
+                    <span class="file-number">032</span>
+                    <span class="file-name">Cristal HD (Saude do HDD)</span>
+
+                </li><li>
+                    <span class="file-number">033</span>
+                    <span class="file-name">CS6</span>
+
+                </li><li>
+                    <span class="file-number">034</span>
+                    <span class="file-name">Desfragmentador de Disco (Organizador HD)</span>
+
+                </li><li>
+                    <span class="file-number">035</span>
+                    <span class="file-name">Desligamento Programa (Agenda Desligamento)</span>
+
+                </li><li>
+                    <span class="file-number">036</span>
+                    <span class="file-name">Frame Rate (After Burner Msi)</span>
+
+                </li><li>
+                    <span class="file-number">037</span>
+                    <span class="file-name">Fumark (Bachmarking GPU)</span>
+
+                </li><li>
+                    <span class="file-number">038</span>
+                    <span class="file-name">GPU-Z (Identificacao GPU)</span>
+
+                </li><li>
+                    <span class="file-number">039</span>
+                    <span class="file-name">Hamachi (Server Online)</span>
+
+                </li><li>
+                    <span class="file-number">040</span>
+                    <span class="file-name">Hd Info  (Informações do HD)</span>
+
+                </li><li>
+                    <span class="file-number">041</span>
+                    <span class="file-name">Hd Tune (Teste de Superficie HD)</span>
+
+                </li><li>
+                    <span class="file-number">042</span>
+                    <span class="file-name">ISOS do Windows</span>
+
+                </li><li>
+                    <span class="file-number">043</span>
+                    <span class="file-name">ImgDrive (Emulador de Iso)</span>
+
+                </li><li>
+                    <span class="file-number">044</span>
+                    <span class="file-name">IpScanner (Diagnostico de rede)</span>
+
+                </li><li>
+                    <span class="file-number">045</span>
+                    <span class="file-name">Letras (Winamp)</span>
+
+                </li><li>
+                    <span class="file-number">046</span>
+                    <span class="file-name">MAGIX Vegas Pro 21.0 Build 108</span>
+
+                </li><li>
+                    <span class="file-number">047</span>
+                    <span class="file-name">Movave (Video Aulas)</span>
+                    
+                </li><li>
+                    <span class="file-number">048</span>
+                    <span class="file-name">Office 2019</span>
+                    
+                </li><li>
+                    <span class="file-number">049</span>
+                    <span class="file-name">Photoshop 2020 CC (Editor Imagens)</span>
+                    
+                </li><li>
+                    <span class="file-number">050</span>
+                    <span class="file-name">Sentinel HD</span>
+                    
+                </li><li>
+                    <span class="file-number">051</span>
+                    <span class="file-name">Sketchup</span>
+                    
+                </li><li>
+                    <span class="file-number">052</span>
+                    <span class="file-name">Verificador de Tela Azul</span>
+                    
+                </li></ul>
+        
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Botão de adicionar arquivo
+            const addFileBtn = document.getElementById("add-file-btn");
+
+            // Lista de arquivos
+            const fileList = document.getElementById("file-list");
+
+            // Número de arquivos existentes (para gerar o próximo número)
+            let fileCount = 3; // Começando com 3, pois já existem 3 arquivos na lista
+
+            addFileBtn.addEventListener("click", function () {
+                // Incrementa o número de arquivos
+                fileCount++;
+
+                // Cria um novo item da lista
+                const newFileItem = document.createElement("li");
+                newFileItem.innerHTML = `
+                    <span class="file-number">${String(fileCount).padStart(3, '0')}</span>
+                    <span class="file-name">nome_do_arquivo_${String(fileCount).padStart(3, '0')}.txt</span>
+
+                `;
+
+                // Adiciona o novo item à lista
+                fileList.appendChild(newFileItem);
+
+                // Adiciona um evento de clique ao botão "Editar" do novo item
+                const editBtn = newFileItem.querySelector(".edit-file-btn");
+                editBtn.addEventListener("click", function () {
+                    const newName = prompt("Digite o novo nome do arquivo:");
+                    if (newName !== null) {
+                        // Atualiza o nome do arquivo
+                        newFileItem.querySelector(".file-name").textContent = newName;
+                    }
+                });
+            });
+
+            // Adiciona eventos de clique aos botões "Editar" existentes
+            const editButtons = document.querySelectorAll(".edit-file-btn");
+            editButtons.forEach(function (button) {
+                button.addEventListener("click", function () {
+                    const newName = prompt("Digite o novo nome do arquivo:");
+                    if (newName !== null) {
+                        // Atualiza o nome do arquivo
+                        const fileItem = button.parentElement;
+                        fileItem.querySelector(".file-name").textContent = newName;
+                    }
+                });
+            });
+        });
+    </script>
+
+
+</body></html>
